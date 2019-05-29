@@ -2457,11 +2457,10 @@
 
 	#header {
 		background-color: #1f1815;
-		background-attachment: scroll,								fixed;
-		background-image: url("images/overlay.png"), url("../images/bg.jpg");
-		background-position: top left,							top left;
-		background-repeat: repeat,								no-repeat;
-		background-size: auto,								auto 100%;
+		background-image: url("../images/bg.jpg");
+		background-position: bottom right;
+		background-repeat: no-repeat;
+		background-size: auto 100%;
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
 		left: 0;
@@ -2469,7 +2468,7 @@
 		position: fixed;
 		text-align: right;
 		top: 0;
-		width: 35%;
+		width: 20%;
 	}
 
 		#header strong, #header b {
@@ -2487,6 +2486,12 @@
 			margin: 0;
 		}
 
+		#header .subtitle {
+			color: #333;
+			font-size: 0.8em;
+		}
+
+
 		#header .image.avatar {
 			margin: 0 0 1em 0;
 			width: 6.25em;
@@ -2497,10 +2502,10 @@
 	#footer {
 		bottom: 0;
 		left: 0;
-		padding: 0 4em 6em 0;
+		padding: 0 0 1em 0;
 		position: fixed;
 		text-align: right;
-		width: 35%;
+		width: 20%;
 	}
 
 		#footer .icons {
@@ -2513,16 +2518,15 @@
 
 		#footer .copyright {
 			color: rgba(255, 255, 255, 0.4);
-			font-size: 0.8em;
+			font-size: 0.5em;
 			list-style: none;
-			margin: 1em 0 0 0;
+			margin: 1em 1em 0 0;
 			padding: 0;
 		}
 
 			#footer .copyright li {
-				border-left: solid 1px rgba(255, 255, 255, 0.25);
-				display: inline-block;
 				line-height: 1em;
+				margin-top: 1em;
 				margin-left: 0.75em;
 				padding-left: 0.75em;
 			}
@@ -2844,7 +2848,7 @@
 
 			#header {
 				padding: 6em 3em 3em 3em;
-				width: 30%;
+				width: 20%;
 			}
 
 				#header h1 {
@@ -2854,18 +2858,21 @@
 					#header h1 br {
 						display: none;
 					}
+				#header .subtitle {
+					color: #333;
+				}
 
 		/* Footer */
 
 			#footer {
-				padding: 0 3em 5em 3em;
-				width: 30%;
+				padding: 0 0 1em 0;
+				width: 20%;
 			}
 
 				#footer .copyright li {
 					border-left-width: 0;
 					display: block;
-					line-height: 2.25em;
+					line-height: 1em;
 					margin-left: 0;
 					padding-left: 0;
 				}
@@ -2873,10 +2880,10 @@
 		/* Main */
 
 			#main {
-				margin-left: 30%;
+				margin-left: 20%;
 				max-width: none;
 				padding: 6em 3em 3em 3em;
-				width: calc(100% - 30%);
+				width: calc(100% - 20%);
 			}
 
 	}
@@ -2924,10 +2931,10 @@
 			#footer {
 				background-attachment: scroll;
 				background-color: #1f1815;
-				background-image: url("images/overlay.png"), url("../images/bg.jpg");
-				background-position: top left,						bottom center;
-				background-repeat: repeat,							no-repeat;
-				background-size: auto,							cover;
+				background-image: url("../images/bg.jpg");
+				background-position: bottom center;
+				background-repeat: no-repeat;
+				background-size: cover;
 				bottom: auto;
 				left: auto;
 				padding: 4em 4em 6em 4em;

@@ -52,10 +52,3 @@ social_icons:
   - RSS
 
 
-jekyll_admin:
-  hidden_links:
-    - posts
-    - pages
-    - staticfiles
-    - datafiles
-    - configuration

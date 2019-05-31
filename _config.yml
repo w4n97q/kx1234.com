@@ -7,6 +7,8 @@ google_analytics_key: ""
 # Default description in social shares for the jekyll-seo-tag gem
 description: > # this means to ignore newlines until "baseurl:"
   开心编程 golang开发、php开发、小程序开发、以及区块链开发的技术笔记
+keywords: >
+  golang,php,小程序,区块链,闪电网络,以太坊,ethereum
 
 # Author details for the jekyll-seo-tag gem
 author:

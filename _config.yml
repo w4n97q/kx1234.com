@@ -13,14 +13,6 @@ keywords: >
 # Author details for the jekyll-seo-tag gem
 author:
   name: kx1234
-  email: 
-  twitter: # twitter username without the @ symbol
-
-# Social details for the jekyll-seo-tag gem
-social:
-  name: 
-  links:
-
 
 permalink: pretty
 
@@ -29,26 +21,5 @@ gems:
   - "jekyll-seo-tag"
   - "jekyll-paginate"
   - "jekyll-sitemap"
-
-# Jekyll SEO Tag
-webmaster_verifications:
-  google: # 1234
-  bing: # 1234
-  alexa: # 1234
-  yandex: # 1234
-
-# -----------
-# CloudCannon
-
-social_icons:
-  - Facebook
-  - Google Plus
-  - Instagram
-  - LinkedIn
-  - Pinterest
-  - Tumblr
-  - Twitter
-  - YouTube
-  - RSS
 
 

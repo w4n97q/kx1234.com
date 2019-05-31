@@ -3,7 +3,7 @@ layout: post
 title: 闪电网络白皮书中文版
 categories: bitcoin 闪电网络
 tag: 
-date:
+date: 2019-05-31
 ---
 
 # 闪电网络白皮书中文版 中英对照

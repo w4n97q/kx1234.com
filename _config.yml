@@ -1,21 +1,12 @@
 locale: "en-US"
-title: 开心编程|专注区块链开发 # Title of your site
-url: "https://kx1234.com" # the base hostname & protocol for your site
-baseurl: "" # the subpath of your site, e.g. /blog/
-google_analytics_key: ""
-
-# Default description in social shares for the jekyll-seo-tag gem
-description: > # this means to ignore newlines until "baseurl:"
-  开心编程 golang开发、php开发、小程序开发、以及区块链开发的技术笔记
-keywords: >
-  golang,php,小程序,区块链,闪电网络,以太坊,ethereum
-
-# Author details for the jekyll-seo-tag gem
+title: 开心编程 | 专注区块链开发
+url: "https://kx1234.com" 
+baseurl: "" 
+description: 开心编程 golang开发、php开发、小程序开发、以及区块链开发的技术笔记
+keywords: golang,php,小程序,区块链,闪电网络,以太坊,ethereum
 author:
   name: kx1234
-
 permalink: pretty
-
 gems:
   - "jekyll-feed"
   - "jekyll-seo-tag"

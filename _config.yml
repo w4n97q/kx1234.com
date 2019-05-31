@@ -1,18 +1,16 @@
 locale: "en-US"
-title: 开心编程 # Title of your site
-url: "http://kx1234.com" # the base hostname & protocol for your site
+title: 开心编程|专注区块链开发 # Title of your site
+url: "https://kx1234.com" # the base hostname & protocol for your site
 baseurl: "" # the subpath of your site, e.g. /blog/
 google_analytics_key: ""
 
 # Default description in social shares for the jekyll-seo-tag gem
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  开心编程 golang开发、php开发、小程序开发、以及区块链开发的技术笔记
 
 # Author details for the jekyll-seo-tag gem
 author:
-  name: wjq
+  name: kx1234
   email: 
   twitter: # twitter username without the @ symbol
 
